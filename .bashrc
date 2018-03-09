@@ -122,3 +122,4 @@ alias cse='ssh z5025209@cse.unsw.edu.au'
 alias droplet='ssh anuraag@128.199.76.49'
 cd bash
 export DISPLAY=:0
+export GIT_EDITOR=vim
