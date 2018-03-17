@@ -4,8 +4,8 @@
 
 for file in .[^.]*
 do
-	#ignore certain files you dont want to link
-	if [[ $file == ".git" || $file == ".install.sh.swp" ]] 
+	#ignore certain files you dont want to add
+	if [[ $file == ".git" || $file == "*.swp" ]] 
 	then
 		continue
 	fi
@@ -17,3 +17,4 @@ do
 	cp $file /home/$USER/$file
 
 done
+
